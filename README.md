@@ -1,4 +1,4 @@
-# samples
+# Configuration Samples
 An official GitHub-repository for my Open Source-based configuration files in case you once may need one!
 
 The specific folders match the application's name and within these folder, the common configuration files show you a possible best-practice how to achieve the desired result.
