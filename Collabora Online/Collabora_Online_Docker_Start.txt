@@ -1,0 +1,1 @@
+docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\\.domain\\.tld" -e "username=<Your-Admin>" -e "password=<Your Password>" --restart always collabora/code
