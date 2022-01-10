@@ -1,0 +1,7 @@
+docker run -d --name=iobroker \
+-p 8081:8081 \
+-e TZ=Europe/Berlin \
+-v /volume1/docker/iobroker:/opt/iobroker \
+--net=host \
+--restart always \
+buanet/iobroker
