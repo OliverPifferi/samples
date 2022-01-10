@@ -1,0 +1,8 @@
+docker run -d --name=libreoffice \
+-p 3444:3000 \
+-e PUID=1035 \
+-e PGID=100 \
+-e TZ=Europe/Berlin \
+-v /volume1/docker/libreoffice:/config \
+--restart always \
+ghcr.io/linuxserver/libreoffice
