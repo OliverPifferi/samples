@@ -1,0 +1,7 @@
+docker run -d --name=adguard \
+-e TZ=Europe/Berlin \
+ -v /volume1/docker/adguardhome/conf:/opt/adguardhome/conf \
+-v /volume1/docker/adguardhome/work:/opt/adguardhome/work \
+--net=host \
+--restart always \
+adguard/adguardhome
