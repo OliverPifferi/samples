@@ -1,0 +1,7 @@
+docker run -d --name=home_assistant \
+-p 8123:8123 \
+-e TZ=Europe/Berlin \
+-v /volume1/docker/homeassistant:/config \
+--net=host \
+--restart always \
+homeassistant/home-assistant
