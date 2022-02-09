@@ -1,0 +1,6 @@
+docker run -d --name bitwarden \
+  --restart=always \
+  -e ADMIN_TOKEN=your-freshly-generated-token \
+  -v /opt/vaultwarden/:/data/ \
+  -p 81:80 \
+  vaultwarden/server:latest
