@@ -2,4 +2,4 @@ docker run -i -t -d -p 127.0.0.1:9981:80 -e JWT_ENABLED='true' -e JWT_SECRET='ch
     -v /app/onlyoffice/DocumentServer/logs:/var/log/onlyoffice  \
     -v /app/onlyoffice/DocumentServer/data:/var/www/onlyoffice/Data  \
     -v /app/onlyoffice/DocumentServer/lib:/var/lib/onlyoffice \
-    -v /app/onlyoffice/DocumentServer/db:/var/lib/postgresql  onlyoffice/documentserver-ee
+    -v /app/onlyoffice/DocumentServer/db:/var/lib/postgresql onlyoffice/documentserver-ee
